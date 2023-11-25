@@ -10,4 +10,7 @@ export default defineConfig({
       external: ['react-router-dom'],
     },
   },
+  resolve: {
+    extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx'],
+  },
 });
